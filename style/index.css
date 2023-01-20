@@ -62,8 +62,6 @@ header .d-flex{
         padding: 8px 0 8px 0;
         max-width: 100%;
         overflow-x: hidden;
-        display: flex;
-        flex-wrap: wrap;
     }
 
     .nav-links{
@@ -111,8 +109,6 @@ header .d-flex{
         padding: 8px 0 8px 0;
         max-width:100%;
         overflow-x: hidden;
-        display: flex;
-        flex-wrap: wrap;
     }
 
     .nav-links{
