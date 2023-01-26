@@ -63,6 +63,7 @@ header .d-flex{
     height: 4px;
     width: 30px;
     border-radius: 2px;
+    margin-left: -20px;
 }
 
 .hamburger-line::before,
@@ -166,7 +167,7 @@ header .d-flex{
     }
 }
 
-@media(min-width: 568px){
+@media(max-width: 768px){
     body{
         overflow-x: hidden;
     }
@@ -248,7 +249,7 @@ header .d-flex{
     }
 }
 
-@media(min-width: 768px){
+@media(min-width: 769px){
     header{
         width:100%;
     }
@@ -259,6 +260,7 @@ header .d-flex{
         line-height: 20px;
         color: #404040;
         display: flex;
+        list-style: none;
     }
 
     .logo-img{
@@ -280,6 +282,11 @@ header .d-flex{
         justify-content: space-around;
         align-items: center;
         display: flex;
+    }
+
+    .hamburger{
+        display: none;
+        width: 30px;
     }
 
     .nav-links a{
@@ -323,7 +330,6 @@ header .d-flex{
 
     .logo-img{
         width: 155px;
-        height: 70px;
     }
 
     header{
