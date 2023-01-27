@@ -153,6 +153,7 @@ header .d-flex{
     .hamburger{
         display: block;
         width: 30px;
+        height: 100vh;
     }
     #checkbox-toggle:checked ~ .hamburger .hamburger-line{
         background: transparent;
@@ -235,7 +236,9 @@ header .d-flex{
     .hamburger{
         display: block;
         width: 30px;
+        height: 100vh;
     }
+
     #checkbox-toggle:checked ~ .hamburger .hamburger-line{
         background: transparent;
     }
